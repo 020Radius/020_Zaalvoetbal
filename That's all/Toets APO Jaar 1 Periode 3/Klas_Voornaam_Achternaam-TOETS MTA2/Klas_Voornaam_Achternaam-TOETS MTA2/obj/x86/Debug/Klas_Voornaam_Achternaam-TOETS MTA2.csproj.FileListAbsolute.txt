@@ -1,4 +1,0 @@
-C:\Users\Sietse\Documents\Visual Studio 2010\Projects\Klas_Voornaam_Achternaam-TOETS MTA2\Klas_Voornaam_Achternaam-TOETS MTA2\bin\Debug\Klas_Voornaam_Achternaam-TOETS MTA2.exe
-C:\Users\Sietse\Documents\Visual Studio 2010\Projects\Klas_Voornaam_Achternaam-TOETS MTA2\Klas_Voornaam_Achternaam-TOETS MTA2\bin\Debug\Klas_Voornaam_Achternaam-TOETS MTA2.pdb
-C:\Users\Sietse\Documents\Visual Studio 2010\Projects\Klas_Voornaam_Achternaam-TOETS MTA2\Klas_Voornaam_Achternaam-TOETS MTA2\obj\x86\Debug\Klas_Voornaam_Achternaam-TOETS MTA2.exe
-C:\Users\Sietse\Documents\Visual Studio 2010\Projects\Klas_Voornaam_Achternaam-TOETS MTA2\Klas_Voornaam_Achternaam-TOETS MTA2\obj\x86\Debug\Klas_Voornaam_Achternaam-TOETS MTA2.pdb

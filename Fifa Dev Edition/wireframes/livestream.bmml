@@ -1,0 +1,106 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1335" measuredH="835" mockupW="1284" mockupH="820">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="51" y="15" w="1284" h="820" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="171" y="89" w="752" h="50" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Title" x="291" y="93" w="513" h="-1" measuredW="299" measuredH="43" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>FIFA%20Dev%20Edition</text>
+      </controlProperties>
+    </control>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="51" y="139" w="1011" h="663" measuredW="300" measuredH="200" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::Title" x="350" y="403" w="-1" h="-1" measuredW="395" measuredH="75" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>72</size>
+        <text>Live%20Stream</text>
+      </controlProperties>
+    </control>
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::Canvas" x="1062" y="463" w="273" h="339" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::Label" x="1077" y="478" w="-1" h="-1" measuredW="96" measuredH="26" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Nu%20spelend%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::Label" x="1077" y="512" w="-1" h="-1" measuredW="147" measuredH="26" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Team%204%20%20-%20Team%208</text>
+      </controlProperties>
+    </control>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::Label" x="1077" y="619" w="-1" h="-1" measuredW="104" measuredH="26" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Tijdsschema</text>
+      </controlProperties>
+    </control>
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::Label" x="1077" y="649" w="-1" h="-1" measuredW="202" measuredH="26" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Team%202%20-%20Team%203%20-%2010%3A00</text>
+      </controlProperties>
+    </control>
+    <control controlID="122" controlTypeID="com.balsamiq.mockups::Label" x="1077" y="683" w="-1" h="-1" measuredW="202" measuredH="26" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Team%202%20-%20Team%203%20-%2010%3A00</text>
+      </controlProperties>
+    </control>
+    <control controlID="123" controlTypeID="com.balsamiq.mockups::Label" x="1077" y="715" w="-1" h="-1" measuredW="202" measuredH="26" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Team%202%20-%20Team%203%20-%2010%3A00</text>
+      </controlProperties>
+    </control>
+    <control controlID="124" controlTypeID="com.balsamiq.mockups::Label" x="1077" y="747" w="-1" h="-1" measuredW="202" measuredH="26" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Team%202%20-%20Team%203%20-%2010%3A00</text>
+      </controlProperties>
+    </control>
+    <control controlID="125" controlTypeID="com.balsamiq.mockups::SubTitle" x="1131" y="241" w="-1" h="-1" measuredW="115" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Topscorer%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="126" controlTypeID="com.balsamiq.mockups::Title" x="1087" y="268" w="-1" h="-1" measuredW="210" measuredH="31" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Dani%EBl%20van%20Bavel</text>
+      </controlProperties>
+    </control>
+    <control controlID="127" controlTypeID="com.balsamiq.mockups::Title" x="1151" y="320" w="-1" h="-1" measuredW="75" measuredH="75" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>72</size>
+        <text>12</text>
+      </controlProperties>
+    </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::SubTitle" x="1235" y="299" w="-1" h="-1" measuredW="62" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Team%202</text>
+      </controlProperties>
+    </control>
+    <control controlID="129" controlTypeID="com.balsamiq.mockups::SubTitle" x="1087" y="89" w="-1" h="-1" measuredW="187" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Applicatie-ontwikkeling</text>
+      </controlProperties>
+    </control>
+    <control controlID="130" controlTypeID="com.balsamiq.mockups::SubTitle" x="1087" y="115" w="-1" h="-1" measuredW="162" measuredH="21" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Media-Development</text>
+      </controlProperties>
+    </control>
+    <control controlID="131" controlTypeID="com.balsamiq.mockups::SubTitle" x="1087" y="139" w="-1" h="-1" measuredW="77" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>GEO-ICT</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
