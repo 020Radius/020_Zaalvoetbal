@@ -1,0 +1,89 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: red;
+}
+.header {
+	min-width: 1000px;
+	width: 80%;
+	height: 200px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+.headerlogo {
+	float: left;
+	margin: 10px;
+	height: 180px;
+	width: 180px;
+}
+.headertitel {
+	position: absolute;
+	margin-left: 220px;
+}
+h1 {
+	margin-top: 50px;
+	font-size: 80px;
+	color: red;
+	height: 100px;
+	width: 800px;
+	text-shadow: -3px 1px 0px rgba(0, 0, 0, 1);
+}
+h2 {
+	font-size: 20px;
+	margin-top: -20px;
+	color: black;
+}
+.content{
+	height: 820px;
+	width: 80%;
+	min-width: 1000px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.teams {
+	height: 600px;
+	width: 68%;
+	background-color: white;
+	float: left;
+}
+.poulestanden {
+	height: 820px;
+	width: 30%;
+	background-color: white;
+	float: left;
+	margin-left: 2%;
+}
+.wedstrijdschema {
+	position: absolute;
+	margin-top: 620px;
+	height: 200px;
+	width: 54.4%;
+	background-color: white;
+}
+h3 {
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border-bottom: 2px solid #e8e8e8;
+	color: red;
+	text-align: center;
+}
+.footer {
+	width: 80%;
+	min-width: 800px;
+	height: 200px;
+	background-color: white;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.zoekbox {
+	
+}
