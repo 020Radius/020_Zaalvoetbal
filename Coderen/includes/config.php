@@ -18,13 +18,14 @@ $dbuser = "root";
 //Database wachtwoord
 $dbpass = "1234";
 //Database naam
-$dbname = "mark-it";
+$dbname = "ajax";
 
 $mysqli = new mysqli($host,$dbuser,$dbpass,$dbname);
 }
 
 return $mysqli;
 }
+
 // voerd connectie functie uit.
 $mysqli = get_my_db();
 
