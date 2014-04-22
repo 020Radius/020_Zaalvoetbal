@@ -7,6 +7,7 @@
 <html lang="en">
 <head>
 
+<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <title>Fifa Def Edition</title>

@@ -3,7 +3,8 @@
 	padding: 0px;
 }
 body {
-	background-color: red;
+	background-color: #e8e8e8;
+	font-family: 'PT Sans', 'sans-serif';
 }
 .header {
 	min-width: 1000px;
