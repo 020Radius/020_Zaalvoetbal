@@ -13,7 +13,7 @@ function realTime() {
         $('#wedstrijdschema').load('stats/wedstrijdschema.php');
         $('#gespeelde_wedstrijden').load('stats/gespeelde_wedstrijden.php');
         $('.nowplaying').load('stats/now_playing.php')
-    }, 4000);
+    }, 0);
 };
 
 // handler voor resetknop
