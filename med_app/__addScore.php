@@ -5,8 +5,8 @@ require 'config/connect.php';
 // update score voor streaming
 if ( isset($_POST['update']) )
 {
-    $score_slot_1 = Security($mysqli, trim($_POST['score1']));
-    $score_slot_2 = Security($mysqli, trim($_POST['score2']));
+    $score_slot_1 = Security(trim($_POST['score1']));
+    $score_slot_2 = Security(trim($_POST['score2']));
 
     $wedstrijdnr = stripslashes($_GET['id']);
 
@@ -20,9 +20,9 @@ if ( isset($_POST['update']) )
 // update final score
 if ( isset($_POST['addScore']) && (!empty($_POST['winnaar']) OR !empty($_POST['gelijk'])) && isset($_POST['submit']) ) {
         
-        $score_slot_1 = Security($mysqli, trim($_POST['score1']));
-        $score_slot_2 = Security($mysqli, trim($_POST['score2']));
-        $winnaar = Security($mysqli, trim($_POST['winnaar']));
+        $score_slot_1 = Security(trim($_POST['score1']));
+        $score_slot_2 = Security(trim($_POST['score2']));
+        $winnaar = Security(trim($_POST['winnaar']));
        
         
         if (empty($_POST['gelijk'])) {

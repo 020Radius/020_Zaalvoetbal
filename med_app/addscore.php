@@ -95,18 +95,19 @@ function getPlayers($mysqli) {
 			<legend>Eindscore</legend>
 			<div class="form-group">
 		        <label class="labelBig" for="score1"  id="score1"><?php echo $row['slot_1']; ?></label>
-		    	<input type="number" name="score1" id="score1" class="inputBig">
+		    	<input type="number" name="score1" id="score1" value="<?php echo $row['goals_slot_1']; ?>" class="inputBig">
 			</div>
 			
 			<div class="form-group">
 		    	<label class="labelBig" for="score2" id="score2" name="score2"><?php echo $row['slot_2']; ?></label>
-		    	<input type="number" name="score2" id="score2" class="inputBig">
+		    	<input type="number" name="score2" id="score2" value="<?php echo $row['goals_slot_2']; ?>" class="inputBig">
 			</div>
 			
 			<input type="submit" name="update" value="update score">
 			
 			<div class="form-group">
 		    	<label class="labelMedium" for="winnaar" id="winnaar">winnaar</label>
+				
 				<?php echo $row['slot_1'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_1'] ?>">
 				<?php echo $row['slot_2'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_2'] ?>">
 			
