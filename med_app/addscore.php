@@ -137,7 +137,20 @@ function getPlayers($mysqli) {
 			<br>
 			<div class="form-group">
 		    	<label class="labelMedium" for="gelijk" id="gelijk">gelijkspel?</label>
+				<?php
+				if($row['goals_slot_2'] == $row['goals_slot_1'])
+				{
+				?>
+		    	<input type="checkbox" name="gelijk" id="gelijk"checked>	
+			    <?php
+				}
+				else
+				{
+				?>
 		    	<input type="checkbox" name="gelijk" id="gelijk">	
+			    <?php
+				}
+				?>
 			</div>
 
 	    	<input type="hidden" name="addScore" value="addscore">
