@@ -5,10 +5,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="http://bootswatch.com/journal/bootstrap.min.css">
 <style>
-body
-{
-background:url(nick.png);
-}
+
 .badge {
 	font-size: 26px;
 	line-height: 32px;
