@@ -87,7 +87,7 @@ function getPlayers($mysqli) {
 	<?php 
 		$id = stripslashes($_GET['id']);
 		$sql2 = "SELECT * FROM poulewedstrijden WHERE wedstrijdnr = '$id'";
-		$query = $mysqli->query($mysqli, $sql2);
+		$query = $mysqli->query($sql2);
 		$row = mysqli_fetch_assoc($query);
 	?>
 	<div class="score col-md-8">

@@ -39,7 +39,7 @@ if (mysqli_connect_error($mysqli))
   
   
 //Functies
-Include("../config/Functies.php");
+Include("Functies.php");
  
 
 ?>

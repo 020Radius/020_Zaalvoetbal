@@ -5,8 +5,8 @@ require 'config/connect.php';
 // update score voor streaming
 if ( isset($_POST['update']) )
 {
-    $score_slot_1 = mysqli_real_escape_string($mysqli, trim($_POST['score1']));
-    $score_slot_2 = mysqli_real_escape_string($mysqli, trim($_POST['score2']));
+    $score_slot_1 = Security($mysqli, trim($_POST['score1']));
+    $score_slot_2 = Security($mysqli, trim($_POST['score2']));
 
     $wedstrijdnr = stripslashes($_GET['id']);
 
@@ -20,9 +20,9 @@ if ( isset($_POST['update']) )
 // update final score
 if ( isset($_POST['addScore']) && (!empty($_POST['winnaar']) OR !empty($_POST['gelijk'])) && isset($_POST['submit']) ) {
         
-        $score_slot_1 = mysqli_real_escape_string($mysqli, trim($_POST['score1']));
-        $score_slot_2 = mysqli_real_escape_string($mysqli, trim($_POST['score2']));
-        $winnaar = mysqli_real_escape_string($mysqli, trim($_POST['winnaar']));
+        $score_slot_1 = Security($mysqli, trim($_POST['score1']));
+        $score_slot_2 = Security($mysqli, trim($_POST['score2']));
+        $winnaar = Security($mysqli, trim($_POST['winnaar']));
        
         
         if (empty($_POST['gelijk'])) {
@@ -31,7 +31,7 @@ if ( isset($_POST['addScore']) && (!empty($_POST['winnaar']) OR !empty($_POST['g
             $gelijk = '1';    
         }
         
-        $wedstrijdnr = stripslashes($_GET['id']);
+        $wedstrijdnr = Security($_GET['id']);
         
         $sql = "UPDATE poulewedstrijden SET goals_slot_1='$score_slot_1', goals_slot_2='$score_slot_2', winnaar = '$winnaar', gelijk = '$gelijk' WHERE wedstrijdnr = '$wedstrijdnr'";
 
