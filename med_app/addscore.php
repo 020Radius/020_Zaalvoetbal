@@ -104,39 +104,39 @@ function getPlayers($mysqli) {
 			</div>
 			
 			<input type="submit" name="update" value="update score">
-			
+				<br>	<br>
 			<div class="form-group">
 		    	<label class="labelMedium" for="winnaar" id="winnaar">winnaar</label>
 				<?php
 				if($row['goals_slot_2'] > $row['goals_slot_1'])
 				{
 				?>
-				<?php echo $row['slot_1'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_1'] ?>">
-				<?php echo $row['slot_2'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_2'] ?>"checked>
+				<?php echo $row['slot_1'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_1'] ?> ">
+				<?php echo $row['slot_2'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_2'] ?> "checked>
 				<?php
 				}
 				elseif($row['goals_slot_2'] < $row['goals_slot_1'])
 				{
 				?>
-				<?php echo $row['slot_1'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_1'] ?>"checked>
-				<?php echo $row['slot_2'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_2'] ?>">
+				<?php echo $row['slot_1'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_1'] ?> "checked>
+				<?php echo $row['slot_2'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_2'] ?> ">
 				<?php
 				}
 				else
 				{
 				
 				?>
-				<?php echo $row['slot_1'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_1'] ?>">
-				<?php echo $row['slot_2'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_2'] ?>">
+				<?php echo $row['slot_1'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_1'] ?> ">
+				<?php echo $row['slot_2'] ?><input class="inputMedium" type="radio" name="winnaar" id="winnaar" value="<?php echo $row['slot_2'] ?> ">
 				<?php
 				
 				}
 ?>
 			
 			</div>
-			
+			<br>
 			<div class="form-group">
-		    	<label class="labelMedium" for="gelijk" id="gelijk">gelijk</label>
+		    	<label class="labelMedium" for="gelijk" id="gelijk">gelijkspel?</label>
 		    	<input type="checkbox" name="gelijk" id="gelijk">	
 			</div>
 
