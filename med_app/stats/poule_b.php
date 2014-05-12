@@ -2,7 +2,7 @@
 require '../config/connect.php';
 
 $sql = "SELECT naam, totaal_punten FROM teams WHERE poule = 'B' ORDER BY punten DESC";
-$query = mysqli_query($con, $sql);
+$query = $mysqli->query($sql);
 
     $i = 1;
     while ($row = mysqli_fetch_assoc($query)){
@@ -14,7 +14,7 @@ $query = mysqli_query($con, $sql);
        $i++;
     }
     
-    mysqli_close($con);
+    mysqli_close($mysqli);
 ?>
     
     

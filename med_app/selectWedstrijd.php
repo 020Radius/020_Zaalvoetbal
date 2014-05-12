@@ -29,7 +29,7 @@
 			<?php  
 			$sql = "SELECT * FROM poulewedstrijden";
 			
-			if ( !$query = mysqli_query($con, $sql) ) 
+			if ( !$query = $mysqli->query($sql) ) 
 			{
 				echo 'Kan de wedstrijden niet tonen';
 				exit();

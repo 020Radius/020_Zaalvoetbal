@@ -2,7 +2,7 @@
 require '../config/connect.php';
 
 $sql = "SELECT wedstrijdnr, slot_1, slot_2 FROM poulewedstrijden WHERE winnaar = '' AND gelijk = '0' ORDER BY wedstrijdnr ASC LIMIT 100";
-$query = mysqli_query($con, $sql);
+$query = $mysqli->query($sql);
 
 if ( mysqli_num_rows($query) > 0 ) {
     while ($row = mysqli_fetch_assoc($query) ) {
@@ -18,5 +18,5 @@ if ( mysqli_num_rows($query) > 0 ) {
 }
 
 mysqli_free_result($query);
-mysqli_close($con);
+mysqli_close($mysqli);
 ?>

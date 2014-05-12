@@ -4,11 +4,11 @@ require 'config/connect.php';
 require 'functions.php';
 
 
-function nowPlaying($con) {
+function nowPlaying($mysqli) {
 	$id = stripslashes($_GET['id']);
 
 	$sql = "SELECT * FROM poulewedstrijden WHERE wedstrijdnr = '$id'";
-	$query = mysqli_query($con, $sql);
+	$query = $mysqli->query($sql);
 	
 	
 	if ( !mysqli_num_rows($query) == 1 ) {
@@ -21,11 +21,11 @@ function nowPlaying($con) {
 	return $row['slot_1'] . ' VS ' . $row['slot_2'];	
 }
 
-function getPlayers($con) {
+function getPlayers($mysqli) {
 	$id = stripslashes($_GET['id']);
 
 	$sql = "SELECT spelers.id, spelers.voornaam, spelers.tussenvoegsel, spelers.achternaam, teams.naam FROM spelers INNER JOIN teams ON spelers.team_id = teams.id WHERE poulewedstrijden.id = '$id'";
-	$query = mysqli_query($con, $sql);
+	$query = $mysqli->query($sql);
 		
 	
 	if ( !mysqli_num_rows($query) ) {
@@ -79,7 +79,7 @@ function getPlayers($con) {
 <div class="container">
 	<div class="page-header">
 		<h1>Score toevoegen</h1>
-		<h2 class="text-center"> <?php echo nowPlaying($con); ?> </h2>
+		<h2 class="text-center"> <?php echo nowPlaying($mysqli); ?> </h2>
 		<a href="selectwedstrijd.php"><button class="btn btn-default">Wedstrijd selecteren</button></a>
 	</div>
 	
@@ -87,7 +87,7 @@ function getPlayers($con) {
 	<?php 
 		$id = stripslashes($_GET['id']);
 		$sql2 = "SELECT * FROM poulewedstrijden WHERE wedstrijdnr = '$id'";
-		$query = mysqli_query($con, $sql2);
+		$query = $mysqli->query($mysqli, $sql2);
 		$row = mysqli_fetch_assoc($query);
 	?>
 	<div class="score col-md-8">
