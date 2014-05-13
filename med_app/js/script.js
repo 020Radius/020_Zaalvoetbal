@@ -3,8 +3,6 @@
 realTime();
 
 
-
-
 function realTime() {
     setInterval(function() {
         $('#poule-a').load('stats/poule_a.php');
