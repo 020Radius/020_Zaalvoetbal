@@ -1,7 +1,12 @@
 <?php
 
 require 'config/connect.php';
-
+session_start();
+if(!isset($_SESSION['user']))
+	{
+	header("location: ./login.php");
+	die();
+	}
 // update score voor streaming
 if ( isset($_POST['update']) )
 {

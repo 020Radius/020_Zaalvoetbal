@@ -24,7 +24,7 @@ $('#reset').click(function(){
 
 // handler voor button naar streaming
 $('#streaming').click(function(){
-    location.href='livestream.php';
+    location.href='index.php';
 });
 
 
